@@ -1,0 +1,37 @@
+.spinner {
+    /* Your styling */
+    animation: spin 1s linear infinite; /* Required */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.country-card{
+    background: fixed;
+    background-color: aqua;
+    padding:auto;
+    color: rgb(0, 26, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.border-grid{
+    display: flex;
+    padding:auto;
+    color: rgb(0, 26, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+.error{
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+.hidden {
+    display: none;
+}
+
